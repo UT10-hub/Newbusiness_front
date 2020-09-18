@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+
+  }
+  
+  a {
+    text-decoration: none;
+
+  }
+  .container-title a{
+    
+        padding-top: 80px;
+  }
+ 
+  
+
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+  }
+  
+  .wrapper{
+      margin-top:300px;
+  }
+
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(back-ground-img.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 730px;
+    
+  }
+ 
+  
+
+
+
+  .top-wrapper p {
+    opacity: 0.7;
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+    .search_container{
+        
+        box-sizing: border-box;
+        position: relative;
+        border: 1px solid #999;
+        padding: 3px 10px;
+        border-radius: 20px;
+        height: 2.3em;
+        width: 260px;
+        top:70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color:rgba(255,255,255,0.5);
+        margin-top: 150px;
+      }
+      .search_container input[type="text"]{
+        border: none;
+        height: 2.0em;
+        background-color: rgba(255,255,255,0.5);
+      }
+      .search_container input[type="text"]:focus {
+        outline: 0;
+        
+      }
+      .search_container input[type="submit"]{
+        cursor: pointer;
+        font-family: FontAwesome;
+        border: none;
+        border-radius: 20%;
+        background: #3879D9;
+        color: #fff;
+        outline : none;
+        width: 2.0em;
+        height: 2.0em;
+      }
+    
+      
+
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: black;
+  }
+  
+  .facebook {
+    background-color: black;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: black;
+  }
+  
+  .btn {
+    font-family:"Impact";
+    padding: 10px 70px;
+    margin: 2em 4em;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+
+  .watchbag-wrapper h2{
+      padding-bottom:30px;
+  }
+  
+  .watchbag-wrapper h3{
+    padding:30px 0;
+  }
+  
+
+  
+  
+  
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.8);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  
+  .logo {
+    width: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    color:white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    margin: 0 0.5px;
+  }
+  
+  .header-right a {
+    line-height: 60px;
+    padding: 0 20px;
+    color: white;
+    display: block;
+  }
+
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+    .purpose-wrapper{
+        height:1200px;
+        
+        
+    }
+    .container-porpose{
+        height:900px;
+        text-align: center;
+        
+        position: relative;
+        
+        
+        vertical-align: middle;
+        
+        color: #240000;
+        letter-spacing: 0.05em;
+    }
+
+    .container-porpose h2{
+        padding:180px 100px;
+    }
+
+    .container-porpose p{
+        padding:30px 150px;
+    }
+
+  
+    .watchbag-wrapper{
+        
+        padding: 180px 0 100px 0;
+        background-image: url(main_banner.jpg);
+        background-size: cover;
+        color: white;
+        text-align: center;
+        height: 730px;
+        
+
+    }
+
+
+
+
+
+
+
+  .message-wrapper {
+    padding-top:100px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 300px;
+    text-align: center;
+    height:100px;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: rgb(252, 255, 53);
+    cursor: pointer;
+    box-shadow: 0 7px #ffa602;
+    color:black;
+    margin-top:30px;
+    border-radius: 10px;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  
+  .container-watchbag{
+    height:980px;
+    background-color:rgb(223, 222, 233);
+  }
+
+
+  .heading h2{
+    color:white;
+  }
+
+
+  .container-info{
+      height:0px;
+      
+  }
+
+
+  .aaaaa{
+      color:white;
+      padding:200px;
+  }
+
+
+  
+  footer p {
+    
+    font-size: 12px;
+    margin:0 50px 50px 50px;
+  }
+  
+  footer {
+
+    border-top:1px solid #eeeeee;
+    background-color:#eeeeee;
+    padding-bottom:70px;
+    padding-top:20px;
+    margin:0 0 0px;
+    
+    height:200px;
+  }
+ 
+  .footer-list{
+      float:left;
+      position: relative;
+      margin:0 100px;
+      padding-bottom:10px;
+   
+  }
+ul{
+    list-style:none;
+}

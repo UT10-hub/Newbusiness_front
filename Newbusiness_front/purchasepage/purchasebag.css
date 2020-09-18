@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+
+  }
+  
+  a {
+    text-decoration: none;
+
+  }
+  
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.8);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  
+  .logo {
+    width: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left:10px;
+    color:white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    margin: 0 0.5px;
+  }
+  
+  .header-right a {
+    line-height: 60px;
+    padding: 0 20px;
+    color: white;
+    display: block;
+  }
+
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /***************************************************----------ここまでヘッダー----------*************************************************/
+
+
+  .main-wrapper{
+    height:auto;
+    width:100%;
+
+
+  }
+  .product-wrapper{
+      display:flex;
+      width:80%;
+      height:900px;
+      margin:0;
+      text-align: center;
+  }
+
+  
+
+  .main-wrapper h3{
+    color:yellowgreen;
+  }
+
+  .product-wrapper{
+
+
+    width:80%;
+    
+  }
+  .product-right{
+    width:20%;
+  }
+  .product-left{
+    
+    width:80%;
+    padding-left:500px;
+  }
+  .product-title{
+    text-align: center;
+    padding-top:150px ;
+  }
+
+  .product-img-a{
+    height:500px; 
+    width:500px;
+    margin-left:500px;
+    
+  }
+  .product-img-b{
+    height:100px;
+    width:450px;
+    margin-left:400px;
+    
+  }
+
+  .table-purchace{
+    
+    background-color: white;
+    height:200px;
+    width:200px;
+    padding:0;
+    margin-top: 100px;
+    vertical-align: top;
+  }
+
+
+  table{
+    
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+  }
+  
+  table th,table td{
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  table tr:nth-child(odd){
+    background-color: #eee
+  }
+
+  .bottun-wrapper{
+     padding-top:100px; 
+    height:100px;
+  }
+
+  .message  {
+    padding: 15px 20px;
+    background-color: rgb(252, 255, 53);
+    cursor: pointer;
+    box-shadow: 0 7px #ffa602;
+    color:black;
+    margin-top:30px;
+    border-radius: 10px;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .reserve{
+    padding: 15px 40px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 7px gray;
+    color:white;
+    margin-top:30px;
+    border-radius: 10px;
+  }
+  
+  .reserve:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .favo {
+    padding: 15px 40px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 7px gray;
+    color:white;
+    margin-top:30px;
+    border-radius: 10px;
+  }
+  
+  .favo:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .product-detail-wrapper{
+      text-align: center;
+      margin:50px;
+  }
+
+  .grad-btn {
+    /*.grad-btnのCSSは表示/非表示の動作には関係ないので、ご自由にどうぞ*/
+  }
+  .grad-item {
+    position: relative;
+    overflow: hidden;
+    height:40px; /*隠した状態の高さ*/
+  }
+  .grad-item::before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /*グラデーションで隠す高さ*/
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+    background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+    content: "";
+  }
+  .grad-trigger {
+    display: none; /*チェックボックスは常に非表示*/
+  }
+  .grad-trigger:checked + .grad-btn {
+    display: none; /*チェックされていたら、grad-btnを非表示にする*/
+  }
+  .grad-trigger:checked ~ .grad-item {
+    height: auto; /*チェックされていたら、高さを戻す*/
+  }
+  .grad-trigger:checked ~ .grad-item::before {
+    display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/}
+
+
+
+
+   /***************************************************----------ここからフッター----------*************************************************/
+  footer p {
+    
+    font-size: 12px;
+    margin:0 50px 50px 50px;
+  }
+  
+  footer {
+    clear: both;
+    border-top:1px solid #eeeeee;
+    background-color:#eeeeee;
+    padding-bottom:70px;
+    margin:0 0 0px;
+    
+    height:200px;
+  }
+ 
+  .footer-list{
+      float:left;
+      position: relative;
+      margin:0 100px;
+      padding-bottom:10px;
+   
+  }
+ul{
+    list-style:none;
+}
+
+    foot {
+        width:30%;
+    }
