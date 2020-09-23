@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.8);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  
+  .logo {
+    width: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left:40px;
+    color:white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    margin: 0 0.5px;
+  }
+  
+  .header-right a {
+    line-height: 60px;
+    padding: 0 20px;
+    color: white;
+    display: block;
+  }
+
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+/*-------------------------ここまでヘッダー--------------------------------*/
+.main-wrapper{
+    height:2500px;
+    width:100%;
+}
+.description-wrapper{
+    width:50%;
+    margin:200px auto 100px auto;
+    height:100px;
+    text-align: center;
+}
+
+.description {
+    text-align:left;
+    margin-top:100px ;
+}
+.description h5{
+  border-bottom: 1px solid;
+}
+.input span {
+    color:red;
+}
+
+
+.form-name {
+    padding-top:40px ;
+    height:180px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+}
+    
+.form-name label{
+    margin-right:300px;
+    margin-left: 50px;
+    float: left;
+
+}
+
+.form-name input{
+    height:30px;
+    width:400px;
+    font-size:20px;
+    margin-left:125px;
+}
+.form-name p{
+    margin-right:160px;
+}
+.form-birth {
+padding-top:50px ;
+height:70px;
+border-bottom: 1px solid ;
+border-color:gray;
+}
+
+.form-birth label{
+  float:left;
+  margin-left:50px ;
+
+}
+
+.form-birth input{
+    height:40px;
+    width:400px;
+
+}
+
+.form-number {
+    padding-top:40px ;
+    height:70px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+}
+    
+.form-number label{
+    float:left;
+    margin-left:50px ;
+}
+
+.form-number input{
+    height:30px;
+    width:400px;
+    font-size:20px;
+    margin-right:75px;
+}
+
+.form-spose {
+    padding-top:40px ;
+    height:80px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+    
+}
+.form-spose label{
+    float:left;
+    margin-left:50px;
+} 
+
+.form-spose select{
+    width:410px;
+    height:50px;
+    margin-left:20px;
+    font-size: 25px;
+}
+    
+.form-households {
+    padding-top:40px ;
+    height:80px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+}
+    
+.form-households label{
+    float:left;
+    margin-left:50px ;
+}
+
+.form-households select{
+    height:60px;
+    width:410px;
+    
+    margin-left:5px;
+    font-size:25px;
+}
+.form-house {
+    padding-top:40px ;
+    height:70px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+}
+    
+.form-house label{
+    float:left;
+    margin-left:50px ;
+}
+
+.form-house select{
+    height:40px;
+    width:410px;
+    margin-left:20px;
+    font-size:25px;
+}
+
+.form-address{
+    padding-top:40px ;
+    height:550px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+}
+
+.form-address label{
+    float:left;
+    margin-left:50px;
+    margin-top: 50px;
+}
+
+.a{
+    margin-left:20px;
+    width:400px;
+    height:30px;
+    font-size:20px;
+}
+
+.p1{
+    
+}
+
+.b{
+    margin-left:120px;
+    width:400px;
+    height:30px;
+    font-size:20px;
+}
+
+.c{
+    margin-left:120px;
+    width:400px;
+    height:30px;
+    font-size:20px;
+}
+
+.d{
+    margin-left:120px;
+    width:400px;
+    height:30px;
+    font-size:20px;
+}
+
+.e{
+    margin-left:120px;
+    width:400px;
+    height:30px;
+    font-size:20px;
+}
+.formp1{
+    margin-right:330px;
+}
+
+.form-ken{
+    margin-right:225px;
+}
+
+.form-machi{
+    margin-right:225px;
+}
+
+.form-banchi{
+    margin-right:255px;
+}
+
+.form-heyaban{
+    margin-right:175px;
+}
+
+.form-receive{
+    padding-top:40px ;
+    height:360px;
+    border-bottom: 1px solid ;
+    border-color:gray;
+}
+
+
+.form-receive p{
+    float:left;
+    margin-left:50px ;
+}
+
+.detail-deli{
+    
+margin:60px 250px 0 250px;
+margin-top:60px;
+}
+
+
+
+
+.input-wrapper{
+    background-color: rgba(216, 216, 216, 0.884);
+    height:800px;
+}
+.input{
+}
+
+
+
+
+.submit-mail{
+margin-top:150px;
+padding: 15px 150px;
+border-radius: 15px;
+}
+
+/*--------------------------ここからフッター -------------------------*/
+
+
+footer p {
+    
+    font-size: 12px;
+    margin:0 50px 50px 50px;
+}
+
+footer {
+
+    border-top:1px solid #eeeeee;
+    background-color:#eeeeee;
+    padding-bottom:70px;
+    padding-top:20px;
+    margin:0 0 0px;
+    
+    height:200px;
+}
+
+.footer-list{
+    float:left;
+    position: relative;
+    margin:0 100px;
+    padding-bottom:10px;
+
+}
+ul{
+    list-style:none;
+}

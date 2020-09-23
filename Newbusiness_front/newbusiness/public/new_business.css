@@ -3,76 +3,25 @@ body {
     font-family: "Hiragino Kaku Gothic ProN";
 
   }
-
+  
   a {
     text-decoration: none;
 
   }
-
-  header {
-    height: 60px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.8);
-    position:fixed;
-    top:0;
-    z-index:10;
-  }
-
-
-  .logo {
-    width: auto;
-    font-size: 30px;
-    margin-top: 10px;
-    color:white;
-  }
-
-  
-  .header-left {
-    float: left;
-  }
-
-  .header-right {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
-    margin: 0 0.5px;
-  }
-
-  .header-right a {
-    line-height: 60px;
-    padding: 0 20px;
-    color: white;
-    display: block;
-  }
-
-  .header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-
-
-
-
-
-
-
-
-
-
   .container-title a{
-
+    
         padding-top: 80px;
   }
-
-
+ 
+  
 
   .container {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-
+    
   }
-
+  
   .wrapper{
       margin-top:300px;
   }
@@ -85,10 +34,10 @@ body {
     color: white;
     text-align: center;
     height: 730px;
-
+    
   }
-
-
+ 
+  
 
 
 
@@ -97,16 +46,16 @@ body {
     font-size: 70px;
     letter-spacing: 5px;
   }
-
+  
   .top-wrapper p {
     opacity: 0.7;
   }
-
+  
   .btn-wrapper {
     margin: 20px 0;
   }
     .search_container{
-
+        
         box-sizing: border-box;
         position: relative;
         border: 1px solid #999;
@@ -127,7 +76,7 @@ body {
       }
       .search_container input[type="text"]:focus {
         outline: 0;
-
+        
       }
       .search_container input[type="submit"]{
         cursor: pointer;
@@ -140,16 +89,27 @@ body {
         width: 2.0em;
         height: 2.0em;
       }
+    
+      
 
-
-
-
+  
   .btn-wrapper p {
     margin: 10px 0;
   }
-
-
-
+  
+  .signup {
+    background-color: black;
+  }
+  
+  .facebook {
+    background-color: black;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: black;
+  }
+  
   .btn {
     font-family:"Impact";
     padding: 10px 70px;
@@ -163,33 +123,66 @@ body {
   .watchbag-wrapper h2{
       padding-bottom:30px;
   }
-
+  
   .watchbag-wrapper h3{
     padding:30px 0;
   }
+  
 
+  
+  
+  
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.8);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  
+  .logo {
+    width: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    color:white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    margin: 0 0.5px;
+  }
+  
+  .header-right a {
+    line-height: 60px;
+    padding: 0 20px;
+    color: white;
+    display: block;
+  }
 
-
-
-
-
-
-
-
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
     .purpose-wrapper{
         height:1200px;
-
-
+        
+        
     }
     .container-porpose{
         height:900px;
         text-align: center;
-
+        
         position: relative;
-
-
+        
+        
         vertical-align: middle;
-
+        
         color: #240000;
         letter-spacing: 0.05em;
     }
@@ -202,16 +195,16 @@ body {
         padding:30px 150px;
     }
 
-
+  
     .watchbag-wrapper{
-
+        
         padding: 180px 0 100px 0;
         background-image: url(main_banner.jpg);
         background-size: cover;
         color: white;
         text-align: center;
         height: 730px;
-
+        
 
     }
 
@@ -228,7 +221,7 @@ body {
     text-align: center;
     height:100px;
   }
-
+  
   .message {
     padding: 15px 40px;
     background-color: rgb(252, 255, 53);
@@ -238,14 +231,14 @@ body {
     margin-top:30px;
     border-radius: 10px;
   }
-
+  
   .message:active {
     position: relative;
     top: 7px;
     box-shadow: none;
   }
-
-
+  
+  
   .container-watchbag{
     height:980px;
     background-color:rgb(223, 222, 233);
@@ -259,23 +252,23 @@ body {
 
   .container-info{
       height:0px;
-
+      
   }
 
 
   .aaaaa{
       color:white;
-      padding:200px;
+      margin-top:200px;
   }
 
 
-
+  
   footer p {
-
+    
     font-size: 12px;
     margin:0 50px 50px 50px;
   }
-
+  
   footer {
 
     border-top:1px solid #eeeeee;
@@ -283,16 +276,16 @@ body {
     padding-bottom:70px;
     padding-top:20px;
     margin:0 0 0px;
-
+    
     height:200px;
   }
-
+ 
   .footer-list{
       float:left;
       position: relative;
       margin:0 100px;
       padding-bottom:10px;
-
+   
   }
 ul{
     list-style:none;
