@@ -1,7 +1,10 @@
+
+
 body {
+    
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
-
+    text-align: center;
   }
 
   a {
@@ -16,26 +19,27 @@ body {
     position:fixed;
     top:0;
     z-index:10;
-  }
-
-
-  .logo {
-    width: auto;
-    font-size: 30px;
-    margin-top: 10px;
-    color:white;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 
   
   .header-left {
     float: left;
+    width: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    color:white;
   }
-
+  .header-right-wrapper{
+      margin-right:50px;
+  }
   .header-right {
     float: right;
     background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
+    transition: all 1.0s;
     margin: 0 0.5px;
+    
   }
 
   .header-right a {
@@ -49,97 +53,107 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
   }
 
+/*--------------------------------------------------ここまでheader-----------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-  .container-title a{
-
-        padding-top: 80px;
-  }
-
-
-
-  .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-
-  }
-
-  .wrapper{
-      margin-top:300px;
-  }
-
-
-  .top-wrapper {
-    padding: 180px 0 100px 0;
+.P1-wrapper {
+    
     background-image: url(back-ground-img.jpg);
     background-size: cover;
     color: white;
     text-align: center;
-    height: 730px;
+    height: 1200px;
 
-  }
-
-
-
-
-
-  .top-wrapper p {
+}
+.title-wrapper h1 {
     opacity: 0.7;
     font-size: 70px;
     letter-spacing: 5px;
-  }
+}
 
-  .top-wrapper p {
-    opacity: 0.7;
-  }
+.search_container{
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #999;
+    padding: 3px 10px;
+    border-radius: 20px;
+    height: 2.3em;
+    width: 260px;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(255,255,255,0.5);
+    
+}
+.search_container input[type="text"]{
+    border: none;
+    height: 2.0em;
+    background-color: rgba(255,255,255,0.5);
+}
+.search_container input[type="text"]:focus {
+    outline: 0;
+}
+.search_container input[type="submit"]{
+    cursor: pointer;
+    font-family: FontAwesome;
+    border: none;
+    border-radius: 20%;
+    background: #3879D9;
+    color: #fff;
+    outline : none;
+    width: 2.0em;
+    height: 2.0em;
+}
+
+
+
+
+
+/*-------------------------------------------------------ここまでP1-----------------------------------------------------------------------*/
+
+
+
+.P2-wrapper{
+    height:1200px;
+}
+
+.container-porpose{
+    height:900px;
+    text-align: center;
+    color: #240000;
+    letter-spacing: 0.05em;
+}
+
+.container-porpose h2{
+    padding:180px 100px;
+}
+
+.container-porpose p{
+    padding:30px 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .btn-wrapper {
     margin: 20px 0;
   }
-    .search_container{
-
-        box-sizing: border-box;
-        position: relative;
-        border: 1px solid #999;
-        padding: 3px 10px;
-        border-radius: 20px;
-        height: 2.3em;
-        width: 260px;
-        top:70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color:rgba(255,255,255,0.5);
-        margin-top: 150px;
-      }
-      .search_container input[type="text"]{
-        border: none;
-        height: 2.0em;
-        background-color: rgba(255,255,255,0.5);
-      }
-      .search_container input[type="text"]:focus {
-        outline: 0;
-
-      }
-      .search_container input[type="submit"]{
-        cursor: pointer;
-        font-family: FontAwesome;
-        border: none;
-        border-radius: 20%;
-        background: #3879D9;
-        color: #fff;
-        outline : none;
-        width: 2.0em;
-        height: 2.0em;
-      }
+    
 
 
 
@@ -176,31 +190,7 @@ body {
 
 
 
-    .purpose-wrapper{
-        height:1200px;
-
-
-    }
-    .container-porpose{
-        height:900px;
-        text-align: center;
-
-        position: relative;
-
-
-        vertical-align: middle;
-
-        color: #240000;
-        letter-spacing: 0.05em;
-    }
-
-    .container-porpose h2{
-        padding:180px 100px;
-    }
-
-    .container-porpose p{
-        padding:30px 150px;
-    }
+    
 
 
     .watchbag-wrapper{

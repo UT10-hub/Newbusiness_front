@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>[NEWBUISINESSTITLE]</title>
+    <link rel="stylesheet" href="info_input.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <div class="logo">[NEWBUSINESSNAME]</div>
+        </div>
+        <div class="header-right">
+          
+          <a href="#" class="login">商品一覧</a> 
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">ブランド</a> 
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">ランキング</a> 
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">ログイン</a> 
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">ご利用方法</a> 
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">ヘルプ</a> 
+        </div>
+        
+      </div>
+    </header>
+   
+    <div class="main-wrapper">
+        <div class="description-wrapper">
+            <div class="description-title">
+            <h2>【New Business Name】/ 【New Business Name MENBER】</h2>
+            <p>新規会員情報入力</p>
+            </div>
+            <div class="description">
+            <h5>会員情報を入力してください</h5><br>
+            </div>
+            <div class="input-wrapper">
+                
+            <div class="input">
+                
+                <div class="form-name">
+                    <form action="//www-creators.com/rsc/receiver.php" method="post">
+                       
+                        <input type="text" name="first-name" maxlength="10" value="" placeholder="山田太郎"><br>
+                        <label><b><span>*</span>フリガナ(フルネーム)</b>
+                        </label><br>
+                        <input type="text" name="first-name" maxlength="10" value="" placeholder="ヤマダタロウ"><br>
+                        <p>※全角カナで入力</p>
+                      </form>
+                </div>
+                
+                <div class="form-birth">
+                <form action="//www-creators.com/rsc/receiver.php" method="post" required>
+                    <label><span>*</span><b>生年月日</b></label>
+                    <input type="date" name="birthday" value="">
+                  </form>
+                </div>
+
+                <div class="form-number">
+                    <form action="//www-creators.com/rsc/receiver.php" method="post">
+                        <label><span>*</span><b>携帯電話番号(半角)</b></label>
+                        <input type="tel" name="tel" value="" max-length="11" size="40" placeholder="000-0000-0000" required>
+                    </form>
+                </div>
+
+                <div class="form-spose">
+                    <form action="//www-creators.com/rsc/receiver.php" method="post">
+                        <label><span>*</span><b>配偶者</b></label>
+                        <select name="pull-down">
+                          <option value="elephant">無し</option>
+                          <option value="lion">有り</option>
+                        </select>
+                      </form>
+                      
+                </div>
+
+                <div class="form-households">
+                    <form action="//www-creators.com/rsc/receiver.php" method="post">
+                        <label><span>*</span><b>世帯人数</b></label>
+                        <select name="pull-down">
+                          <option value="one">1人</option>
+                          <option value="two">2人</option>
+                          <option value="three">3人</option>
+                          <option value="four">4人以上</option>
+                        </select>
+                      </form>
+                </div>
+
+                <div class="form-house">
+                    <form action="//www-creators.com/rsc/receiver.php" method="post">
+                        <label><span>*</span><b>ご自宅</b></label>
+                        <select name="pull-down">
+                          <option value="one">賃貸</option>
+                          <option value="two">持ち家</option>
+                        </select>
+                      </form>
+
+                </div>
+
+                <div class="form-address">
+                    
+                    <label><span>*</span><b>ご住所</b></label><br>
+                    <div class="formp1">郵便番号</div>
+                    <input type="text" name="zip01" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','pref01','addr01');" class="a"><br><br>
+                    <div class="form-ken">都道府県</div>
+                    <input type="text" name="pref01" size="20" class="b"><br><br>
+                    <div class="form-machi">市町村区</div>
+                    <input type="text" name="addr01" size="60" class="c"><br><br>
+                    <div class="form-banchi">番地</div>
+                    <input type="text" name="addr02" size="60" class="d"><br><br>
+                    <div class="form-heyaban">建物・部屋番号</div>
+                    <input type="text" name="addr03" size="60" class="e"><br>
+                </div>
+                
+
+                <div class="form-receive">
+                    <form action="//www-creators.com/rsc/receiver.php" method="post">
+                        <p><span>*</span><b>受け取り方法</b></p>
+                        <div class="aaaaa">
+                        <input id="radio-a" type="radio" name="dinner" value="haisou" checked><label for="radio-a">配送を希望する</label><br>
+                        <input id="radio-b" type="radio" name="dinner" value="konbini"><label for="radio-b">コンビニで受け取る</label><br>
+                        <input id="radio-c" type="radio" name="dinner" value="tenpo"><label for="radio-c">店舗で受け取る</label><br>
+                        </div>
+                        <div class="detail-deli">※コンビニ受取をご希望の方は、ヤマト運輸で配送いたします。
+                            佐川運輸のクロネコメンバーズをご利用いただき、当社からの発送完了メール配信後に、お客様ご自身で配送先をコンビニにご変便ください。
+                        </div>
+                      </form>
+                </div>
+                
+                <div class="contract-wrapper">
+                </div>
+                
+                <div class="send-wrapper">
+                </div>    
+            </div>
+                
+        </div>
+            <input type="submit" value="次へ" class="submit-mail">
+            
+        </div>
+    </div>
+
+
+    
+    <footer>
+          <div class="footer-list">
+          <h4 class="foot">サービスについて</h4>
+            <ul>
+            <li>サービス概要</li>
+            <li>ご利用の流れ</li>
+            <li>お問い合わせ</li>
+            <li>ステートメント</li>
+            <li>取扱ブランド一覧</li>
+            <li>採用情報</li>
+            <li>よくある質問</li>
+            </ul>
+          </div>
+
+          <div class="footer-list">
+            <h4 class="foot">[NEWBUSINESSNAME]について</h4>
+              <ul>
+              <li>特定商取引法・古物営業法に基づく表記</li>
+              <li>安心キズ保証</li>
+              <li>利用規約</li>
+              <li>シリアルナンバー検索</li>
+              <li>[NEWBUSINESSNAME]について</li>
+              <li>採用情報</li>
+              <li>ニュース</li>
+              </ul>
+            </div>
+
+            <div class="footer-list">
+              <h4 class="foot">大黒屋について</h4>
+                <ul>
+                <li>登壇情報</li>
+                <li>運営会社</li>
+                <li>個人情報保護方針</li>
+                <li>取扱ブランド一覧</li>
+                <li>採用情報</li>
+                <li>よくある質問</li>
+                <li>English</li>
+                </ul>
+              </div>
+    </footer>
+
+
+    
+  </body>
+</html>
