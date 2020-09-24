@@ -26,7 +26,7 @@ body {
     color:white;
   }
 
-  
+
   .header-left {
     float: left;
   }
@@ -80,7 +80,7 @@ body {
 
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(back-ground-img.jpg);
+    background-image: url(mypage-bgi);
     background-size: cover;
     color: white;
     text-align: center;

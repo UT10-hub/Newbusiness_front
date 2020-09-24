@@ -1,0 +1,165 @@
+body{
+    min-height:100vh;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template:
+    
+    " ... ...... ...... ...... ...... ...... "      
+    " header header header header header header "      60px
+    " ... ...... ...... ...... ...... ...... "      10px
+    " ... left   ...... main ......    right  "      1fr 
+    " footer footer footer footer footer footer "      250px      
+    /  30px 200px 10px   1fr  10px  200px  ;
+}
+a{
+    text-decoration: none;
+}
+header{
+    grid-area: header;
+    background-color:rgb(34,49,52);
+}
+.header-container{
+    height:60px;
+}
+
+.name{
+    float:left;
+    color:white;
+    height:auto;
+    font-size: 30px;
+    margin: 10px 0 10px 20px;
+    width:30%;
+}
+
+.header-right{
+    float:right;
+    width:50%;
+    margin-right: 40px;
+}
+.right-logo{
+    float:right;
+    color: white;
+    display: block;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    margin: 0 0.5px;
+}
+.right-logo a{
+    color: white;
+    line-height: 60px;
+    margin: 0 0.5px;
+    padding:  20px 10px ;
+}
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
+
+/*--------------------↑header---------------------------------------*/
+nav{
+    grid-area:left ;
+}
+
+.top-wrapper{
+    margin-top: 100px;
+}
+
+.nav-logo{
+border-bottom: solid 1px;
+line-height: 40px;
+color:black;
+}
+
+
+
+main{
+    grid-area: main;
+    background-image: url(mypage-bgi.png);
+    background-color:rgba(255,255,255,0.85);
+    background-blend-mode:lighten;
+    
+}
+
+.concept{
+    margin: 100px auto;
+    text-align: center;
+}
+.circle{
+
+    float:left;
+    justify-content:space-around;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    margin-left: 23%;
+    margin-top: 8%;
+    cursor: pointer;
+    box-shadow: 0 7px #868686;
+    color:black;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.circle:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+}
+
+
+
+
+aside{
+    grid-area:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------フッター ↓---------------------------------------*/
+footer p {
+    font-size: 12px;
+    margin:0 50px 50px 50px;
+}
+
+footer {
+    grid-area: footer;
+    background-color:#eeeeee;
+}
+
+.footer-list{
+    float:left;
+    position: relative;
+    width: 33.33333%;
+    text-align: left;
+}
+ul{
+    list-style:none;
+}
+.list-wrapper{
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        grid-template: 
+        "header " 150px
+        "center " 
+        "left   " 
+        "right  "
+        "footer " 300px;
+    }
+}
